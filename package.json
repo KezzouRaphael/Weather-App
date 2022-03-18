@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.49.9"
+  },
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "JS app with open-weather api",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass -w css/style.scss css/style.css"
+  },
+  "author": "Kezzou Raphael",
+  "license": "ISC"
+}

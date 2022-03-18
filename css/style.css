@@ -1,0 +1,59 @@
+body {
+  font-family: "Merryweather";
+  font-size: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container_days {
+  display: flex;
+  flex-direction: column;
+  background-color: lightblue;
+  border-radius: 5%;
+  padding: 0.5rem;
+  margin: 3px;
+}
+.container_city {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #120979 35%, rgba(8, 204, 244, 0.4430147059) 100%);
+  flex: 0 0 48%;
+  border-radius: 5%;
+  padding: 5px;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+}
+.container_column {
+  display: flex;
+  flex-direction: column;
+}
+.container_row {
+  display: flex;
+  flex-direction: row;
+}
+.container_row_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  width: -webkit-fill-available;
+  width: -moz-available;
+  width: stretch;
+}
+
+.p_title, .p_days {
+  font-size: 1rem;
+}
+.p_title {
+  text-align: left;
+}
+.p_days {
+  text-align: right;
+}
+
+/*# sourceMappingURL=style.css.map */
